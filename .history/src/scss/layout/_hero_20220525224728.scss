@@ -147,12 +147,12 @@
 .hero-figure-box-05,
 .hero-figure-box-06,
 .hero-figure-box-07 {
-	background-color: color(bg, 4);
+	background-color: color(bg, 2);
 	box-shadow: -20px 32px 64px rgba(#000, .25);
 }
 
 .hero-figure-box-05 {
-	background: linear-gradient(217deg, rgba(15, 15, 15, 0.8), rgba(30, 0, 255, 0.05) 70.71%);
+	background: linear-gradient(217deg, rgba(138, 129, 129, 0.8), rgba(255,0,0,0) 70.71%);
 	left: 17.4%;
 	top: 13.3%;
 	width: 64%;
@@ -186,7 +186,7 @@
 	transform: rotateZ(-22deg);
 
 	&::before {
-		background: linear-gradient(to left, rgba(color(typography, 1), 0) 0%, rgba(color(typography, 2), .48) 100%);
+		background: linear-gradient(to left, rgba(color(typography, 1), 0) 0%, rgba(color(typography, 1), .48) 100%);
 		transform: rotateZ(45deg) scale(1.5);
 	}
 }
@@ -196,11 +196,11 @@
 	top: -17.9%;
 	width: 6.63%;
 	height: 8.83%;
-	background: #00c0fbb8;
+	background: #00BFFB;
 	transform: rotateZ(-52deg);
 
 	&::before {
-		background: linear-gradient(to left, rgba(color(typography, 1), 0) 0%, rgba(color(typography, 2), .64) 100%);
+		background: linear-gradient(to left, rgba(color(typography, 1), 0) 0%, rgba(color(typography, 1), .64) 100%);
 		transform: rotateZ(45deg) scale(1.5);
 	}
 }
