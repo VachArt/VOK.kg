@@ -677,7 +677,7 @@ label {
   text-decoration: none;
   text-transform: uppercase;
   background-color: rgba(24, 32, 141, 0.7725490196);
-  color: #3cb371 !important;
+  color: #036301 !important;
   border: none;
   height: auto;
   left: 8px;
@@ -705,7 +705,7 @@ label {
 }
 
 .text-primary {
-  color: #3cb371;
+  color: #036301;
 }
 
 .has-top-divider {
@@ -1234,12 +1234,12 @@ label {
 }
 
 .button-primary {
-  background: #217c80;
-  background: linear-gradient(65deg, #3cb371 0, #06448e 100%);
+  background: #27a81c;
+  background: linear-gradient(65deg, #29b11d 0, #036d01 100%);
 }
 .button-primary:hover {
-  background: #064998;
-  background: linear-gradient(65deg, #36af2a 0, #36af2a 100%);
+  background: #1c8302;
+  background: linear-gradient(65deg, #036301 0, #27a81c 100%);
 }
 
 .button-block {
@@ -1360,7 +1360,7 @@ label {
 }
 
 .hero-title {
-  text-shadow: rgba(0, 0, 0, 0.549) -10px 5px 10px;
+  text-shadow: rgba(0, 0, 0, 0.549) -5px 5px 15px;
   font-family: "Ubuntu", sans-serif;
 }
 
@@ -1453,7 +1453,7 @@ label {
   top: 64.1%;
   width: 37.87%;
   height: 50.5%;
-  background: linear-gradient(to left top, #3cb371, rgba(60, 179, 113, 0));
+  background: linear-gradient(to left top, #036301, rgba(3, 99, 1, 0));
   transform: rotateZ(-45deg);
 }
 .hero-figure-box-02::before {
@@ -1478,7 +1478,7 @@ label {
   top: -8%;
   width: 45.45%;
   height: 60.6%;
-  background: linear-gradient(to left top, #3cb371, rgba(60, 179, 113, 0));
+  background: linear-gradient(to left top, #036301, rgba(3, 99, 1, 0));
   transform: rotateZ(-135deg);
 }
 .hero-figure-box-04::before {
@@ -1523,7 +1523,7 @@ label {
   top: 81.6%;
   width: 19.51%;
   height: 26.01%;
-  background: #3cb371;
+  background: #036301;
   transform: rotateZ(-22deg);
 }
 .hero-figure-box-08::before {

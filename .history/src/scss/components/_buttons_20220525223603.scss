@@ -45,7 +45,7 @@
 
     &:hover {
 		background: lighten(mix(color(primary, 2), color(primary, 2)), 2%);
-        background: linear-gradient(65deg, color(primary, 1) 0, color(primary, 3) 100%);
+        background: linear-gradient(65deg, color(primary, 3) 0, color(primary, 1) 100%);
     }
 }
 
