@@ -254,10 +254,11 @@ html {
 }
 
 body {
-  background: rgba(24, 32, 141, 0.7725490196);
+  background: rgba(41, 48, 139, 0.6078431373);
   /* Fallback for when there is no custom background color defined. */
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
+  filter: brightness(70%);
 }
 
 hr {
@@ -575,7 +576,7 @@ pre .h6 {
 }
 
 pre, code, kbd, tt, var {
-  background: rgba(24, 32, 141, 0.7725490196);
+  background: rgba(41, 48, 139, 0.6078431373);
 }
 
 pre {
@@ -676,7 +677,7 @@ label {
   line-height: 16px;
   text-decoration: none;
   text-transform: uppercase;
-  background-color: rgba(24, 32, 141, 0.7725490196);
+  background-color: rgba(41, 48, 139, 0.6078431373);
   color: #036301 !important;
   border: none;
   height: auto;
@@ -1147,8 +1148,8 @@ label {
 .input[disabled],
 .textarea[disabled] {
   cursor: not-allowed;
-  background-color: rgba(24, 32, 141, 0.7725490196);
-  border-color: rgba(24, 32, 141, 0.7725490196);
+  background-color: rgba(41, 48, 139, 0.6078431373);
+  border-color: rgba(41, 48, 139, 0.6078431373);
 }
 
 .input {
@@ -1691,7 +1692,7 @@ label {
 }
 
 .body-wrap {
-  background: rgba(24, 32, 141, 0.7725490196);
+  background: rgba(41, 48, 139, 0.6078431373);
   overflow: hidden;
   /* Sticky footer */
   display: flex;
