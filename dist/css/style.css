@@ -258,7 +258,7 @@ body {
   /* Fallback for when there is no custom background color defined. */
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  filter: brightness(70%);
+  filter: brightness(70%), contrast(50%);
 }
 
 hr {
