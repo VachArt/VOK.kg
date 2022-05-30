@@ -254,7 +254,7 @@ html {
 }
 
 body {
-  background: rgba(46, 52, 139, 0.6078431373);
+  background: #202bc4;
   /* Fallback for when there is no custom background color defined. */
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -362,7 +362,7 @@ html {
 }
 
 body {
-  color: #009acd;
+  color: #70b0ef;
   font-size: 1rem;
 }
 
@@ -386,7 +386,7 @@ a:hover, a:active {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   clear: both;
-  color: #009acd;
+  color: #70b0ef;
   font-weight: 600;
 }
 
@@ -575,7 +575,7 @@ pre .h6 {
 }
 
 pre, code, kbd, tt, var {
-  background: rgba(46, 52, 139, 0.6078431373);
+  background: #202bc4;
 }
 
 pre {
@@ -676,7 +676,7 @@ label {
   line-height: 16px;
   text-decoration: none;
   text-transform: uppercase;
-  background-color: rgba(46, 52, 139, 0.6078431373);
+  background-color: #202bc4;
   color: #036301 !important;
   border: none;
   height: auto;
@@ -1113,7 +1113,7 @@ label {
 --------------------------------------------------------------*/
 .input,
 .textarea {
-  background-color: #009acd;
+  background-color: #70b0ef;
   border-width: 1px;
   border-style: solid;
   border-color: rgba(30, 53, 94, 0.8431372549);
@@ -1147,8 +1147,8 @@ label {
 .input[disabled],
 .textarea[disabled] {
   cursor: not-allowed;
-  background-color: rgba(46, 52, 139, 0.6078431373);
-  border-color: rgba(46, 52, 139, 0.6078431373);
+  background-color: #202bc4;
+  border-color: #202bc4;
 }
 
 .input {
@@ -1217,9 +1217,11 @@ label {
   height: 48px;
   text-align: center;
   white-space: nowrap;
+  transition: 0.5s;
 }
 .button:hover {
   background: rgba(31, 55, 98, 0.8431372549);
+  transform: scale(1.1);
 }
 .button:active {
   outline: 0;
@@ -1305,9 +1307,12 @@ label {
   padding: 2px;
   z-index: 100;
   text-shadow: 2px 1px 5px rgba(0, 0, 0, 0.763);
+  margin-bottom: 5px;
+  transition: 0.5s;
 }
 .header-nav .nav-link:hover {
-  color: yellow;
+  color: yellowgreen;
+  transform: scale(1.1);
 }
 
 @media (min-width: 641px) {
@@ -1357,9 +1362,10 @@ label {
 }
 
 .hero-title {
-  text-shadow: rgba(0, 0, 0, 0.549) -5px 5px 15px;
+  text-shadow: rgba(0, 0, 0, 0.549) -5px 5px 2px;
   font-family: "Ubuntu", sans-serif;
   margin-bottom: 3rem;
+  color: #00b2ee;
 }
 
 .hero-paragraph {
@@ -1484,7 +1490,7 @@ label {
   transform: rotateZ(-135deg);
 }
 .hero-figure-box-04::before {
-  background: linear-gradient(to top, rgba(0, 154, 205, 0.24) 0%, rgba(0, 154, 205, 0) 60%);
+  background: linear-gradient(to top, rgba(112, 176, 239, 0.24) 0%, rgba(112, 176, 239, 0) 60%);
   transform: rotateZ(-45deg) scale(1.5);
 }
 
@@ -1529,7 +1535,7 @@ label {
   transform: rotateZ(-22deg);
 }
 .hero-figure-box-08::before {
-  background: linear-gradient(to left, rgba(0, 154, 205, 0) 0%, rgba(241, 245, 251, 0.48) 100%);
+  background: linear-gradient(to left, rgba(112, 176, 239, 0) 0%, rgba(241, 245, 251, 0.48) 100%);
   transform: rotateZ(45deg) scale(1.5);
 }
 
@@ -1542,7 +1548,7 @@ label {
   transform: rotateZ(-52deg);
 }
 .hero-figure-box-09::before {
-  background: linear-gradient(to left, rgba(0, 154, 205, 0) 0%, rgba(241, 245, 251, 0.64) 100%);
+  background: linear-gradient(to left, rgba(112, 176, 239, 0) 0%, rgba(241, 245, 251, 0.64) 100%);
   transform: rotateZ(45deg) scale(1.5);
 }
 
@@ -1695,7 +1701,7 @@ label {
 }
 
 .body-wrap {
-  background: rgba(46, 52, 139, 0.6078431373);
+  background: #202bc4;
   overflow: hidden;
   /* Sticky footer */
   display: flex;
@@ -1725,6 +1731,7 @@ main {
   font-family: "Ubuntu", sans-serif;
   text-shadow: 2px 1px 5px rgba(0, 0, 0, 0.604);
   font-weight: normal;
+  color: yellow;
 }
 .section-inner .section-paragraph {
   text-shadow: 2px 1px 5px rgba(0, 0, 0, 0.604);
