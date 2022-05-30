@@ -254,7 +254,7 @@ html {
 }
 
 body {
-  background: rgba(41, 48, 139, 0.6078431373);
+  background: rgba(46, 52, 139, 0.6078431373);
   /* Fallback for when there is no custom background color defined. */
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -362,7 +362,7 @@ html {
 }
 
 body {
-  color: #00c5cd;
+  color: #009acd;
   font-size: 1rem;
 }
 
@@ -386,7 +386,7 @@ a:hover, a:active {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   clear: both;
-  color: #00c5cd;
+  color: #009acd;
   font-weight: 600;
 }
 
@@ -575,7 +575,7 @@ pre .h6 {
 }
 
 pre, code, kbd, tt, var {
-  background: rgba(41, 48, 139, 0.6078431373);
+  background: rgba(46, 52, 139, 0.6078431373);
 }
 
 pre {
@@ -676,7 +676,7 @@ label {
   line-height: 16px;
   text-decoration: none;
   text-transform: uppercase;
-  background-color: rgba(41, 48, 139, 0.6078431373);
+  background-color: rgba(46, 52, 139, 0.6078431373);
   color: #036301 !important;
   border: none;
   height: auto;
@@ -1113,7 +1113,7 @@ label {
 --------------------------------------------------------------*/
 .input,
 .textarea {
-  background-color: #00c5cd;
+  background-color: #009acd;
   border-width: 1px;
   border-style: solid;
   border-color: rgba(30, 53, 94, 0.8431372549);
@@ -1147,8 +1147,8 @@ label {
 .input[disabled],
 .textarea[disabled] {
   cursor: not-allowed;
-  background-color: rgba(41, 48, 139, 0.6078431373);
-  border-color: rgba(41, 48, 139, 0.6078431373);
+  background-color: rgba(46, 52, 139, 0.6078431373);
+  border-color: rgba(46, 52, 139, 0.6078431373);
 }
 
 .input {
@@ -1288,13 +1288,10 @@ label {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  font-size: 14px;
-  line-height: 14px;
-  color: rgba(246, 125, 60, 0.7647058824);
-  transition: all 0.5s;
+  font-size: 20px;
+  color: #f67d3c;
   margin-left: 5px;
   font-family: "Ubuntu", sans-serif;
-  text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.6823529412);
 }
 
 .header-nav {
@@ -1362,6 +1359,11 @@ label {
 .hero-title {
   text-shadow: rgba(0, 0, 0, 0.549) -5px 5px 15px;
   font-family: "Ubuntu", sans-serif;
+  margin-bottom: 3rem;
+}
+
+.hero-paragraph {
+  margin-bottom: 3rem;
 }
 
 .hero-cta {
@@ -1482,7 +1484,7 @@ label {
   transform: rotateZ(-135deg);
 }
 .hero-figure-box-04::before {
-  background: linear-gradient(to top, rgba(0, 197, 205, 0.24) 0%, rgba(0, 197, 205, 0) 60%);
+  background: linear-gradient(to top, rgba(0, 154, 205, 0.24) 0%, rgba(0, 154, 205, 0) 60%);
   transform: rotateZ(-45deg) scale(1.5);
 }
 
@@ -1527,7 +1529,7 @@ label {
   transform: rotateZ(-22deg);
 }
 .hero-figure-box-08::before {
-  background: linear-gradient(to left, rgba(0, 197, 205, 0) 0%, rgba(241, 245, 251, 0.48) 100%);
+  background: linear-gradient(to left, rgba(0, 154, 205, 0) 0%, rgba(241, 245, 251, 0.48) 100%);
   transform: rotateZ(45deg) scale(1.5);
 }
 
@@ -1540,7 +1542,7 @@ label {
   transform: rotateZ(-52deg);
 }
 .hero-figure-box-09::before {
-  background: linear-gradient(to left, rgba(0, 197, 205, 0) 0%, rgba(241, 245, 251, 0.64) 100%);
+  background: linear-gradient(to left, rgba(0, 154, 205, 0) 0%, rgba(241, 245, 251, 0.64) 100%);
   transform: rotateZ(45deg) scale(1.5);
 }
 
@@ -1609,14 +1611,13 @@ label {
 @media (max-width: 640px) {
   .hero-title {
     font-size: xx-large;
+    line-height: 1.1;
+    margin-bottom: 2rem;
   }
 }
 @media (max-width: 320px) {
   .hero-title {
     font-size: x-large;
-  }
-  .hero-title .liter {
-    font-size: 3.125rem;
   }
 }
 /*--------------------------------------------------------------
@@ -1655,12 +1656,15 @@ label {
 .feature-icon {
   display: flex;
   justify-content: center;
+  margin-top: 0.9375rem;
 }
 .feature-icon .icon-image {
   max-width: 100px;
   max-height: 100px;
-  border-radius: 5px;
-  padding: 2px;
+  border-radius: 20px;
+  padding: 0.75rem;
+  box-shadow: 1px 2px 5px rgb(93, 93, 93);
+  background-color: #fff;
 }
 
 .feature-title {
@@ -1691,7 +1695,7 @@ label {
 }
 
 .body-wrap {
-  background: rgba(41, 48, 139, 0.6078431373);
+  background: rgba(46, 52, 139, 0.6078431373);
   overflow: hidden;
   /* Sticky footer */
   display: flex;
@@ -1721,6 +1725,9 @@ main {
   font-family: "Ubuntu", sans-serif;
   text-shadow: 2px 1px 5px rgba(0, 0, 0, 0.604);
   font-weight: normal;
+}
+.section-inner .section-paragraph {
+  text-shadow: 2px 1px 5px rgba(0, 0, 0, 0.604);
 }
 
 @media (min-width: 641px) {
@@ -1825,6 +1832,13 @@ main {
     order: 1;
     margin-bottom: 0;
   }
+}
+.footer-tel {
+  margin-right: 0;
+}
+
+.facebook-link {
+  margin-left: 0.9375rem;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -96,6 +96,7 @@
     .footer-links,
     .footer-social-links {
         justify-content: flex-end;
+        margin-left: 15px;
     }
 
     .footer-links {
@@ -106,8 +107,4 @@
 
 .footer-tel {
     margin-right: 0;
-}
-
-.facebook-link {
-    margin-left: .9375rem;
 }
