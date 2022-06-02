@@ -1343,7 +1343,7 @@ label {
     align-items: center;
   }
   .site-header-inner .header-nav {
-    margin-top: 1.5625rem;
+    margin-top: 30px;
   }
 }
 /*--------------------------------------------------------------
@@ -1625,10 +1625,6 @@ label {
 @media (max-width: 320px) {
   .hero-title {
     font-size: x-large;
-  }
-
-  .hero-paragraph {
-    line-height: 1.1;
   }
 }
 /*--------------------------------------------------------------
