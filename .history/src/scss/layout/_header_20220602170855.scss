@@ -86,7 +86,7 @@
 		position: relative; /* To display all elements above the background color */
 		display: flex;
 		flex-direction: column;
-		align-items: center;
+		align-items: flex-start;
 		.header-nav {
 			margin-top: 1.5625rem;
 		}

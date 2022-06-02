@@ -254,7 +254,7 @@ html {
 }
 
 body {
-  background: #0086D1;
+  background: #0270b0;
   /* Fallback for when there is no custom background color defined. */
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -575,7 +575,7 @@ pre .h6 {
 }
 
 pre, code, kbd, tt, var {
-  background: #0086D1;
+  background: #0270b0;
 }
 
 pre {
@@ -676,7 +676,7 @@ label {
   line-height: 16px;
   text-decoration: none;
   text-transform: uppercase;
-  background-color: #0086D1;
+  background-color: #0270b0;
   color: #036301 !important;
   border: none;
   height: auto;
@@ -1147,8 +1147,8 @@ label {
 .input[disabled],
 .textarea[disabled] {
   cursor: not-allowed;
-  background-color: #0086D1;
-  border-color: #0086D1;
+  background-color: #0270b0;
+  border-color: #0270b0;
 }
 
 .input {
@@ -1340,7 +1340,7 @@ label {
     /* To display all elements above the background color */
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
   }
   .site-header-inner .header-nav {
     margin-top: 1.5625rem;
@@ -1701,7 +1701,7 @@ label {
 }
 
 .body-wrap {
-  background: #0086D1;
+  background: #0270b0;
   overflow: hidden;
   /* Sticky footer */
   display: flex;
