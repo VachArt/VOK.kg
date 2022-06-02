@@ -254,7 +254,7 @@ html {
 }
 
 body {
-  background: #0270b0;
+  background: #03659d;
   /* Fallback for when there is no custom background color defined. */
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -362,7 +362,7 @@ html {
 }
 
 body {
-  color: #70b0ef;
+  color: #70bcef;
   font-size: 1rem;
 }
 
@@ -386,7 +386,7 @@ a:hover, a:active {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   clear: both;
-  color: #70b0ef;
+  color: #70bcef;
   font-weight: 600;
 }
 
@@ -575,7 +575,7 @@ pre .h6 {
 }
 
 pre, code, kbd, tt, var {
-  background: #0270b0;
+  background: #03659d;
 }
 
 pre {
@@ -676,7 +676,7 @@ label {
   line-height: 16px;
   text-decoration: none;
   text-transform: uppercase;
-  background-color: #0270b0;
+  background-color: #03659d;
   color: #036301 !important;
   border: none;
   height: auto;
@@ -1113,7 +1113,7 @@ label {
 --------------------------------------------------------------*/
 .input,
 .textarea {
-  background-color: #70b0ef;
+  background-color: #70bcef;
   border-width: 1px;
   border-style: solid;
   border-color: rgba(30, 53, 94, 0.8431372549);
@@ -1147,8 +1147,8 @@ label {
 .input[disabled],
 .textarea[disabled] {
   cursor: not-allowed;
-  background-color: #0270b0;
-  border-color: #0270b0;
+  background-color: #03659d;
+  border-color: #03659d;
 }
 
 .input {
@@ -1490,7 +1490,7 @@ label {
   transform: rotateZ(-135deg);
 }
 .hero-figure-box-04::before {
-  background: linear-gradient(to top, rgba(112, 176, 239, 0.24) 0%, rgba(112, 176, 239, 0) 60%);
+  background: linear-gradient(to top, rgba(112, 188, 239, 0.24) 0%, rgba(112, 188, 239, 0) 60%);
   transform: rotateZ(-45deg) scale(1.5);
 }
 
@@ -1535,7 +1535,7 @@ label {
   transform: rotateZ(-22deg);
 }
 .hero-figure-box-08::before {
-  background: linear-gradient(to left, rgba(112, 176, 239, 0) 0%, rgba(241, 245, 251, 0.48) 100%);
+  background: linear-gradient(to left, rgba(112, 188, 239, 0) 0%, rgba(241, 245, 251, 0.48) 100%);
   transform: rotateZ(45deg) scale(1.5);
 }
 
@@ -1548,7 +1548,7 @@ label {
   transform: rotateZ(-52deg);
 }
 .hero-figure-box-09::before {
-  background: linear-gradient(to left, rgba(112, 176, 239, 0) 0%, rgba(241, 245, 251, 0.64) 100%);
+  background: linear-gradient(to left, rgba(112, 188, 239, 0) 0%, rgba(241, 245, 251, 0.64) 100%);
   transform: rotateZ(45deg) scale(1.5);
 }
 
@@ -1701,7 +1701,7 @@ label {
 }
 
 .body-wrap {
-  background: #0270b0;
+  background: #03659d;
   overflow: hidden;
   /* Sticky footer */
   display: flex;
