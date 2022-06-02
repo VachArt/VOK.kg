@@ -254,7 +254,7 @@ html {
 }
 
 body {
-  background: rgba(38, 50, 210, 0.7450980392);
+  background: #0086D1;
   /* Fallback for when there is no custom background color defined. */
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -575,7 +575,7 @@ pre .h6 {
 }
 
 pre, code, kbd, tt, var {
-  background: rgba(38, 50, 210, 0.7450980392);
+  background: #0086D1;
 }
 
 pre {
@@ -676,7 +676,7 @@ label {
   line-height: 16px;
   text-decoration: none;
   text-transform: uppercase;
-  background-color: rgba(38, 50, 210, 0.7450980392);
+  background-color: #0086D1;
   color: #036301 !important;
   border: none;
   height: auto;
@@ -1147,8 +1147,8 @@ label {
 .input[disabled],
 .textarea[disabled] {
   cursor: not-allowed;
-  background-color: rgba(38, 50, 210, 0.7450980392);
-  border-color: rgba(38, 50, 210, 0.7450980392);
+  background-color: #0086D1;
+  border-color: #0086D1;
 }
 
 .input {
@@ -1365,7 +1365,7 @@ label {
   text-shadow: rgba(0, 0, 0, 0.549) -5px 5px 2px;
   font-family: "Ubuntu", sans-serif;
   margin-bottom: 3rem;
-  color: #00b2ee;
+  color: #4eb4fc;
 }
 
 .hero-paragraph {
@@ -1701,7 +1701,7 @@ label {
 }
 
 .body-wrap {
-  background: rgba(38, 50, 210, 0.7450980392);
+  background: #0086D1;
   overflow: hidden;
   /* Sticky footer */
   display: flex;
