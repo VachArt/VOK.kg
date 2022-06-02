@@ -1340,6 +1340,7 @@ label {
     /* To display all elements above the background color */
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
   .site-header-inner .header-nav {
     margin-top: 1.5625rem;
@@ -1624,6 +1625,10 @@ label {
 @media (max-width: 320px) {
   .hero-title {
     font-size: x-large;
+  }
+
+  .hero-paragraph {
+    line-height: 1.1;
   }
 }
 /*--------------------------------------------------------------
